@@ -87,6 +87,9 @@
         var resultContainer = document.getElementById('result');
         resultContainer.innerHTML = "<p>" + result + "</p>";
     }
+    if (e.ctrlKey && (e.keyCode == 'S'.charCodeAt(0) || e.keyCode == 's'.charCodeAt(0))) {
+            return false;
+        }
 </script>
 
 </body>
